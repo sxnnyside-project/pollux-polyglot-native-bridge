@@ -281,11 +281,14 @@ fn download_artifact(manifest_dir: &Path, target: &str, info: &TargetInfo) -> Pa
     let archive_path = cache_dir.join(&archive_name);
     let extracted_dir = cache_dir.join(&package_name);
 
-    if extracted_dir.join("lib").is_dir() {
-        // Already downloaded and extracted by a previous build in this
-        // target/ directory; still re-verify before trusting it.
-        validate_artifact_dir(&extracted_dir, info, "downloaded cache");
-        return extracted_dir;
+    if extracted_dir.is_dir() {
+        let header = extracted_dir.join("include/pollux.h");
+        let lib = extracted_dir.join("lib").join(info.lib_file);
+        if header.is_file() && lib.is_file() {
+            validate_artifact_dir(&extracted_dir, info, "downloaded cache");
+            return extracted_dir;
+        }
+        let _ = fs::remove_dir_all(&extracted_dir);
     }
 
     println!("cargo:warning=downloading Pollux Core artifact from {url}");
