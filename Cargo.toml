@@ -1,0 +1,32 @@
+[package]
+name = "pollux-polyglot-native-bridge"
+version = "0.1.0"
+edition = "2021"
+description = "Public Rust FFI/ABI bridge between Pollux Core and external runtimes."
+license = "MIT"
+repository = "https://github.com/sxnnyside-project/pollux-polyglot-native-bridge"
+homepage = "https://sxnnysideproject.com"
+documentation = "https://docs.rs/pollux-polyglot-native-bridge"
+readme = "README.md"
+keywords = ["security", "authority", "ffi", "abi", "deterministic"]
+categories = ["api-bindings", "development-tools::ffi"]
+
+[lib]
+name = "pollux_polyglot_native_bridge"
+path = "src/lib.rs"
+
+[build-dependencies]
+sha2 = { version = "0.10", default-features = false }
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lints.rust]
+# The whole point of this crate is a hand-written `extern "C"` binding
+# layer over Pollux Core's ABI — `unsafe` is unavoidable here, unlike in
+# Core itself.
+unsafe_code = "allow"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
