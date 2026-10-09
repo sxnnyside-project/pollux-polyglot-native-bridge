@@ -6,7 +6,7 @@
 For bugs or unexpected behavior, open an [issue](https://github.com/sxnnyside-project/pollux-polyglot-native-bridge/issues). Use the bug report template and include enough context to reproduce the problem.
 
 **Discord**
-For questions, general discussion, or anything that isn't a bug — join the Sxnnyside Project community at [discord.gg/sxnnyside](https://discord.gg/sxnnyside).
+For questions, general discussion, or anything that isn't a bug — join the Sxnnyside Project community at [https://discord.gg/WnAvUHTnG](https://discord.gg/WnAvUHTnG).
 
 ---
 
@@ -24,4 +24,4 @@ For security vulnerabilities, see [SECURITY.md](SECURITY.md).
 
 ---
 
-*pollux-polyglot-native-bridge is a CoreRed project, part of the Sxnnyside Project's Pollux Ecosystem. Part of the [Sxnnyside Project](https://sxnnysideproject.com).*
+*pollux-polyglot-native-bridge is Sxnnyside Project. Part of the [Sxnnyside Project](https://sxnnysideproject.com).*

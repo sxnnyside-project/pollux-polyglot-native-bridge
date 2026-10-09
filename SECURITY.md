@@ -5,7 +5,7 @@
 If you find a security vulnerability in **pollux-polyglot-native-bridge**, report it privately before disclosing it publicly.
 
 **Preferred channel:**
-Email — `legal.sxnnyside@sxnnysideproject.com`
+Email — `houjou.sxnnyside@sxnnysideproject.com`
 
 **Alternative:**
 [GitHub Private Security Advisory](https://github.com/sxnnyside-project/pollux-polyglot-native-bridge/security/advisories/new)
@@ -49,4 +49,4 @@ For ecosystem-wide security concerns, use the email above.
 
 ---
 
-*pollux-polyglot-native-bridge is a CoreRed project, part of the Sxnnyside Project's Pollux Ecosystem. Part of the [Sxnnyside Project](https://sxnnysideproject.com).*
+*pollux-polyglot-native-bridge is Sxnnyside Project. Part of the [Sxnnyside Project](https://sxnnysideproject.com).*

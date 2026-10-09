@@ -34,7 +34,7 @@ It shuttles an Authority Manifest (YAML) in and an Evaluation Trace (JSON) out a
 
 > *"A bridge should carry data across the boundary without altering its meaning, inventing its own rules, or attempting to become the authority it serves."*
 
-Pollux Polyglot Native Bridge is a CoreRed project, part of the Sxnnyside Project's Pollux Ecosystem.
+Pollux Polyglot Native Bridge is part of the Sxnnyside Project's Pollux Ecosystem.
 
 ---
 
@@ -148,6 +148,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ---
 
 <p align="center">
-  <strong>Pollux Polyglot Native Bridge</strong> — A CoreRed Project<br>
+  <strong>Pollux Polyglot Native Bridge</strong> — A Sxnnyside Project<br>
   <em>&copy; 2026 Sxnnyside Project</em>
 </p>
